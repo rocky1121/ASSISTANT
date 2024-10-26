@@ -1,6 +1,6 @@
 {
     "name":"Virtual Assistant",
-    "short_name":"PWA",
+    "short_name":"VA",
     "start_url":"index.html",
     "display":"standalone",
     "background_color":"#5900b3",
