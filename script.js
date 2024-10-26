@@ -83,7 +83,7 @@ function takeCommand(message){
     }
     else if(message.includes("open whatsapp")){
         speak("opening whatsapp..")
-        window.location.href = "whatsapp://";
+        window.open("https://whatsapp.com/","_blank")
     }
     else if(message.includes("time")){
       let time=new Date().toLocaleString(undefined,{hour:"numeric",minute:"numeric"})
